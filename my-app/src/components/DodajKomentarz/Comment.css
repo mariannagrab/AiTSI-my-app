@@ -1,0 +1,17 @@
+.comment{
+    margin-top:40px;
+}
+.comment label{
+    font-weight: 700;
+}
+.icon{
+    float: left;
+    padding: 15px 5px 10px 5px;
+}
+.userName{
+    float: left;
+}
+.date{
+    font-size: smaller;
+    clear: both;
+}

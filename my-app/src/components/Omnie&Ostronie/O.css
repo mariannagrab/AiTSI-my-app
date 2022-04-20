@@ -1,0 +1,29 @@
+.o{
+    margin-top: 20px;
+    background-color: rgba(85, 132, 172,0.5);
+}
+.text{
+    margin-left: 20px;
+    float: left;
+    width: 70%;
+    margin-bottom: 150px;
+}
+
+.o h2{
+    text-align: center;
+}
+.quote{
+    font-weight: 300;
+    font-style: italic;
+}
+.highlight{
+    color: rgb(34, 87, 126);
+    font-weight: 600;
+}
+li { 
+    margin: 10px 15px; 
+}
+li.double{
+    margin: 10px 30px; 
+    list-style-type: none;
+}

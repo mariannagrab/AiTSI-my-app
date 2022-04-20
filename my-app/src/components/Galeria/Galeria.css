@@ -1,0 +1,46 @@
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(85, 132, 172,0.5);
+  } 
+  .carusell{
+    width: 70%;
+    height: 750px;
+  }
+  .insides{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+  }
+  .insides .left {
+    flex: 5%;
+    height: 100%;
+    background-color: rgba(85, 132, 172,0.5);
+    display: grid;
+    place-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+.insides .center {
+    flex: 80%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+
+.insides .right {
+    flex: 5%;
+    height: 100%;
+    background-color: rgba(85, 132, 172,0.5);
+    display: grid;
+    place-items: center;
+    color: white;
+    cursor: pointer;
+}

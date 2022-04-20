@@ -1,0 +1,28 @@
+.home{
+    background-image: url("../../images/gory.jpg") ;
+    background-size: 1800px;
+    background-position: center;
+    height: 2000px;
+    color: white;
+}
+
+.home h1{
+    
+    font-size: xx-large;
+    font-style: italic;
+    margin-block-start: 0;
+}
+.homequote {
+    padding-top: 300px;
+    padding-left: 30px;
+}
+.hq-right{
+    text-align: right;
+    padding-right: 30px;
+}
+.hq-center{
+    text-align: center;
+}
+.hq-center h1{
+    text-transform: uppercase;
+}

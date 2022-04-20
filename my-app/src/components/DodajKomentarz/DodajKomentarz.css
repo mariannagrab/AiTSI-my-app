@@ -1,0 +1,43 @@
+.dodajKomentarz{
+    background-color: rgba(85, 132, 172,0.5);
+    min-height: 720px;
+}
+.addComment{
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffff;
+    padding:20px;
+    width:50%;
+}
+.form{
+    text-align: center;
+}
+input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 3px solid #ccc;
+    transition: 0.5s;
+    outline: none;
+}
+input:focus {
+    border: 3px solid #555;
+}
+button {
+    color: white;
+    border-radius: 4px;
+    padding: 12px;
+    border: none;
+    background-color: rgb(34, 87, 126);
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(85, 132, 172);
+    transition: all 0.4s ease-out;
+}
+.errText{
+    color: red;
+}
