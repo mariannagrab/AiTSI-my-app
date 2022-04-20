@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/AiTSI-my-app/static/css/main.21a21aa3.css",
+    "main.css": "/AiTSI-my-app/static/css/main.8ed2a34a.css",
     "main.js": "/AiTSI-my-app/static/js/main.581ee16c.js",
     "static/media/las.jpg": "/AiTSI-my-app/static/media/las.61e6f123f8592db8253d.jpg",
     "static/media/kwiatki.jpg": "/AiTSI-my-app/static/media/kwiatki.6ae284fa933416b114d7.jpg",
@@ -12,11 +12,11 @@
     "static/media/strona.jpg": "/AiTSI-my-app/static/media/strona.8899a8e5ff831b007572.jpg",
     "static/media/walidacja.jpg": "/AiTSI-my-app/static/media/walidacja.da8ff43c61d8fa72daca.jpg",
     "index.html": "/AiTSI-my-app/index.html",
-    "main.21a21aa3.css.map": "/AiTSI-my-app/static/css/main.21a21aa3.css.map",
+    "main.8ed2a34a.css.map": "/AiTSI-my-app/static/css/main.8ed2a34a.css.map",
     "main.581ee16c.js.map": "/AiTSI-my-app/static/js/main.581ee16c.js.map"
   },
   "entrypoints": [
-    "static/css/main.21a21aa3.css",
+    "static/css/main.8ed2a34a.css",
     "static/js/main.581ee16c.js"
   ]
 }
