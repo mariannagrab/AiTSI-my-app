@@ -43,7 +43,6 @@ function Ostronie() {
                                 Dzięki użytym ciasteczkom dostępne jest równieź po odświeżeniu strony.</p>
                         </ul>
                     </article>
-
                 </article>
                 <article>
                     <header>
@@ -72,7 +71,6 @@ function Ostronie() {
                     </header>
                     <article>
                         <ul>
-                            <li>HTML poddano walidacji poprzez podanie linka do strony <a href="https://jigsaw.w3.org/css-validator/validator">jigsaw.w3.org</a></li>
                             <li>Kod CSS poddano walidacji poprzez załadowanie plików na stronę <a href="https://jigsaw.w3.org/css-validator/validator">jigsaw.w3.org</a></li>
                         </ul>
                     </article>
@@ -83,7 +81,10 @@ function Ostronie() {
                     </header>
                     <article>
                         <ul>
-                            <li>Hosting zapewniony bezpośrednio ze strony github pages poprzez stworzenie repozytorium<a href="https://pages.github.com/">pages.github.com</a></li>
+                            <li>Hosting zapewniony bezpośrednio ze strony github pages poprzez stworzenie repozytorium, 
+                            dodanie dependency gh-pages do projektu i deploy pod linkiem zawartym w pliku package.json 
+                            - "homepage": "https://mariannagrab.github.io/AiTSI-my-app"<a href="https://mariannagrab.github.io/AiTSI-my-app">https://mariannagrab.github.io/AiTSI-my-app</a></li>
+                            <li>Informacja o hostingu przez github - <a href="https://pages.github.com/">pages.github.com</a></li>
                         </ul>
                     </article>
                 </article>
