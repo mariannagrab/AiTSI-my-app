@@ -17,12 +17,12 @@ function App() {
       <main>
         <article>
           <Routes>
-            <Route path='/' exact element={<Home />} />
-            <Route path='/home' element={<Home />} />
-            <Route path='/omnie' element={<Omnie />} />
-            <Route path='/galeria' element={<Galeria />} />
-            <Route path='/ostronie' element={<Ostronie />} />
-            <Route path='/dodajkomentarz' element={<DodajKomentarz />} />
+            <Route path='/AiTSI-my-app' exact element={<Home />} />
+            <Route path='/AiTSI-my-app/home' element={<Home />} />
+            <Route path='/AiTSI-my-app/omnie' element={<Omnie />} />
+            <Route path='/AiTSI-my-app/galeria' element={<Galeria />} />
+            <Route path='/AiTSI-my-app/ostronie' element={<Ostronie />} />
+            <Route path='/AiTSI-my-app/dodajkomentarz' element={<DodajKomentarz />} />
           </Routes>
         </article>
       </main>

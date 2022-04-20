@@ -1,22 +1,22 @@
 export const MenuItems = [
     {
         title: 'Home',
-        url: '/home',
+        url: '/AiTSI-my-app/home',
     },
     {
         title: 'O mnie',
-        url: '/omnie',
+        url: '/AiTSI-my-app/omnie',
     },
     {
         title: 'Galeria',
-        url: '/galeria',
+        url: '/AiTSI-my-app/galeria',
     },
     {
         title: 'Dodaj komentarz',
-        url: '/dodajkomentarz',
+        url: '/AiTSI-my-app/dodajkomentarz',
     },
     {
         title: 'O stronie',
-        url: '/ostronie',
+        url: '/AiTSI-my-app/ostronie',
     }
 ]
