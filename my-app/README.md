@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+## Link do strony
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://mariannagrab.github.io/AiTSI-my-app/
 
-## Available Scripts
+## Technologie
+### HTML5
+### CSS
+Cały styl strony został stworzony za pomocą plików CSS, w projekcie nie wykorzystano dostępnych frameworków np. biblioteki bootstrap użyto nietrywialnych właściwości CSS takich jak:
+flex - jak bardzo przedmiot wzrośnie w stosunku do reszty,
+transition - łagodniejsze przejście po najechaniu kursora,
+background: linear-gradient(90deg, .. - gradientowa zmiana tła
+użycie pseudo klas
+### React.js 18.0.0 - biblioteka JavaScript do tworzenia interfejsów graficznych bazująca na odrębnych komponentach
+Dla każdej zakładki na stronie stworzono oddzielny folder zawierający pliki tworzące komponenty i odpowiadające pliki css. (my-app/src/components/) Gdzie to było możliwe zastosowano wspólny plik css - dla zakładek "o mnie" i "o stronie". Wszystkie komponenty składowe renderowane są w głównym komponencie App.js (my-app/src/App.js). Plik index.html znajduje się w folderze public. (my-app/public/index.html)
 
-In the project directory, you can run:
+Nawigacja strony zapewniona przez bibliotekę React router i React router dom w wersjach 6.3.
 
-### `npm start`
+### Pliki Cookies
+Pliki cookie to dane przechowywane w postaci par klucz-wartość, które służą do przechowywania informacji o użytkowniku na jego komputerze przez przeglądane przez niego witryny. Używane są głównie do utrzymywania sesji np. poprzez wygenerowanie i odesłanie tymczasowego identyfikatora po logowaniu.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+W projekcie użyto biblioteki react-cookie. W pamięci przechowywane jest imię osoby piszącej komentarz w zakładce "Dodaj komentarz". Dzięki użytym ciasteczkom dostępne jest równieź po odświeżeniu strony.
